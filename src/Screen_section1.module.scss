@@ -1,0 +1,418 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 700 30px/1.2 "Ubuntu", Helvetica, Arial, serif;
+$font_type1: 30px/1.2 "Ubuntu", Helvetica, Arial, serif;
+$font_type2: 500 45px/1.2 "Ubuntu", Helvetica, Arial, serif;
+
+.section1_layout {
+  position: relative;
+  height: min-content;
+}
+.section1 {
+  @include flex-column;
+}
+.block2 {
+  @include flex-column;
+}
+.block2_layout {
+  position: relative;
+  overflow: hidden;
+  height: min-content;
+}
+.decorator3 {
+  background: var(--src) center center / contain no-repeat;
+}
+.decorator3_layout {
+  position: absolute;
+  top: -306px;
+  height: 562px;
+  width: 850px;
+  right: -55px;
+}
+.decorator2 {
+  background: var(--src) center center / contain no-repeat;
+}
+.decorator2_layout {
+  position: absolute;
+  top: -119px;
+  height: 799px;
+  left: -157px;
+  width: 513px;
+}
+.group {
+  @include flex-column;
+}
+.group_layout1 {
+  position: relative;
+  height: min-content;
+  width: 80.97%;
+  margin: 49px auto;
+  @include xl {
+    width: 85.02%;
+  }
+  @include lg {
+    width: 88.33%;
+    margin: 42px auto;
+  }
+  @include md {
+    width: 90.98%;
+    margin: 34px auto;
+  }
+  @include sm {
+    width: 93.08%;
+    margin: 27px auto;
+  }
+  @include xs {
+    width: 94.72%;
+    margin: 24px auto;
+  }
+  @include xxs {
+    width: 95.99%;
+    margin: 21px auto;
+  }
+  @include tn {
+    width: 96.96%;
+    margin: 18px auto;
+  }
+}
+.box {
+  border: 6px dashed rgb(0, 0, 0);
+}
+.box_layout {
+  position: absolute;
+  top: 277px;
+  height: 516px;
+  width: 513px;
+  right: -36px;
+}
+.flex {
+  @include flex-column;
+}
+.flex_layout {
+  position: relative;
+  height: min-content;
+  width: 100%;
+  margin: 0px 0px;
+}
+.flex1 {
+  display: flex;
+  @include md {
+    flex-wrap: wrap;
+    row-gap: 16px;
+  }
+}
+.flex1_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 0px 4px;
+  @include lg {
+    margin: 0px 0px 0px 5px;
+  }
+}
+.flex1_item {
+  @include flex-column;
+  position: relative;
+  flex: 1 0 auto;
+  @include md {
+    flex: 0 0 calc(50% - 8px);
+  }
+  @include sm {
+    flex: 0 0 100%;
+  }
+}
+.big_title1 {
+  @include font-face($font_type0, rgb(0, 0, 0), 0px);
+  @include lg {
+    font-size: 27px;
+    text-align: left;
+  }
+  @include md {
+    font-size: 24px;
+  }
+  @include sm {
+    font-size: 21px;
+  }
+  @include xs {
+    font-size: 20px;
+  }
+  @include xxs {
+    font-size: 18px;
+  }
+  @include tn {
+    font-size: 17px;
+  }
+}
+.big_title1_layout {
+  position: relative;
+  height: min-content;
+  margin: 0px 0px 3px;
+  @include lg {
+    margin: 0px 0px 5px;
+  }
+}
+.flex1_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 188px;
+  @include md {
+    flex: 0 0 16px;
+  }
+  @include sm {
+    display: none;
+  }
+}
+.big_title3 {
+  @include font-face($font_type1, rgb(0, 0, 0), 0px);
+  @include lg {
+    font-size: 27px;
+    text-align: left;
+  }
+  @include md {
+    font-size: 24px;
+  }
+  @include sm {
+    font-size: 21px;
+  }
+  @include xs {
+    font-size: 20px;
+  }
+  @include xxs {
+    font-size: 18px;
+  }
+  @include tn {
+    font-size: 17px;
+  }
+}
+.big_title3_layout {
+  position: relative;
+  height: min-content;
+  margin: 3px 0px 0px;
+  @include lg {
+    margin: 5px 0px 0px;
+  }
+}
+.flex1_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 118px;
+  @include md {
+    display: none;
+  }
+}
+.big_title2 {
+  @include font-face($font_type1, rgb(229, 229, 229), 0px);
+  @include lg {
+    font-size: 27px;
+    text-align: left;
+  }
+  @include md {
+    font-size: 24px;
+  }
+  @include sm {
+    font-size: 21px;
+  }
+  @include xs {
+    font-size: 20px;
+  }
+  @include xxs {
+    font-size: 18px;
+  }
+  @include tn {
+    font-size: 17px;
+  }
+}
+.big_title2_layout {
+  position: relative;
+  height: min-content;
+  margin: 3px 0px 0px;
+  @include lg {
+    margin: 5px 0px 0px;
+  }
+}
+.flex1_spacer2 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 118px;
+  @include md {
+    flex: 0 0 16px;
+  }
+  @include sm {
+    display: none;
+  }
+}
+.flex2 {
+  display: flex;
+  @include lg {
+    flex-wrap: wrap;
+    row-gap: 16px;
+  }
+}
+.flex2_layout {
+  position: relative;
+  height: min-content;
+  margin: 192px 27px 183px;
+  @include lg {
+    margin: 152px 24px 145px;
+  }
+  @include md {
+    margin: 109px 20px 104px;
+  }
+  @include sm {
+    margin: 72px 17px 70px;
+  }
+  @include xs {
+    margin: 53px 15px 52px;
+  }
+  @include xxs {
+    margin: 35px 14px;
+  }
+  @include tn {
+    margin: 22px 13px 23px;
+  }
+}
+.flex2_item {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 336px;
+  @include lg {
+    flex: 0 0 100%;
+  }
+}
+.flex3 {
+  @include flex-column;
+}
+.flex3_layout {
+  position: relative;
+  height: min-content;
+  margin: 115px 0px 81px;
+  @include lg {
+    margin: 94px 0px 68px;
+  }
+  @include md {
+    margin: 71px 0px 55px;
+  }
+  @include sm {
+    margin: 52px 0px 43px;
+  }
+  @include xs {
+    margin: 42px 0px 37px;
+  }
+  @include xxs {
+    margin: 33px 0px 32px;
+  }
+  @include tn {
+    margin: 26px 0px 28px;
+  }
+}
+.hero_title5 {
+  @include font-face($font_type2, rgb(81, 120, 79), 0px);
+  @include lg {
+    font-size: 40px;
+    text-align: left;
+  }
+  @include md {
+    font-size: 35px;
+  }
+  @include sm {
+    font-size: 31px;
+  }
+  @include xs {
+    font-size: 28px;
+  }
+  @include xxs {
+    font-size: 26px;
+  }
+  @include tn {
+    font-size: 25px;
+  }
+}
+.hero_title5_layout {
+  position: relative;
+  height: min-content;
+}
+.image6 {
+  background: var(--src) center center / contain no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.flex2_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 37px;
+  @include lg {
+    display: none;
+  }
+}
+.flex2_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 720px;
+  @include lg {
+    flex: 0 0 100%;
+  }
+}
+.group1 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+  border-radius: 10%;
+}
+.group1_layout {
+  position: relative;
+  flex-grow: 1;
+  min-height: 512px;
+  flex-shrink: 0;
+}
+.block3 {
+  @include flex-column;
+}
+.block3_layout {
+  position: absolute;
+  top: 194px;
+  height: 274px;
+  width: 266px;
+  right: -101px;
+}
+.group_layout {
+  position: relative;
+  height: min-content;
+  width: 32.71%;
+  margin: 137px 21.8% 36px 45.49%;
+  @include lg {
+    margin: 111px 21.8% 31px 45.49%;
+  }
+  @include md {
+    margin: 82px 21.8% 26px 45.49%;
+  }
+  @include sm {
+    margin: 58px 21.8% 22px 45.49%;
+  }
+  @include xs {
+    margin: 45px 21.8% 20px 45.49%;
+  }
+  @include xxs {
+    margin: 33px 21.8% 17px 45.49%;
+  }
+  @include tn {
+    margin: 25px 21.8% 16px 45.49%;
+  }
+}
+.image4 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image4_layout {
+  position: absolute;
+  top: -88px;
+  height: 175px;
+  left: -63px;
+  width: 151px;
+}
+.image5 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image5_layout {
+  position: relative;
+  height: 101px;
+  width: 87px;
+  min-width: 87px;
+}

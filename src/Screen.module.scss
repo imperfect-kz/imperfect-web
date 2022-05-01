@@ -1,0 +1,13 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+.main {
+  @include flex-column;
+  background-color: rgb(253, 247, 242);
+}
+.main_layout {
+  position: relative;
+  overflow: hidden;
+  min-height: 4096px;
+  flex-shrink: 0;
+}

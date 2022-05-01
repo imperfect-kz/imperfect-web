@@ -1,0 +1,264 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 500 40px/1.2 "Ubuntu", Helvetica, Arial, serif;
+$font_type1: 30px/1.2 "Ubuntu", Helvetica, Arial, serif;
+
+.section3_layout {
+  position: relative;
+  height: min-content;
+}
+.section3 {
+  @include flex-column;
+}
+.flex7 {
+  @include flex-column;
+}
+.flex7_layout {
+  position: relative;
+  height: min-content;
+  width: 92.5%;
+  margin: 76px auto;
+  @include xl {
+    width: 94.27%;
+  }
+  @include lg {
+    width: 95.64%;
+    margin: 65px auto;
+  }
+  @include md {
+    width: 96.69%;
+    margin: 52px auto;
+  }
+  @include sm {
+    width: 97.5%;
+    margin: 42px auto;
+  }
+  @include xs {
+    width: 98.11%;
+    margin: 37px auto;
+  }
+  @include xxs {
+    width: 98.58%;
+    margin: 31px auto;
+  }
+  @include tn {
+    width: 98.93%;
+    margin: 28px auto;
+  }
+}
+.group {
+  @include flex-column;
+}
+.group_layout2 {
+  position: relative;
+  height: min-content;
+  width: 31.83%;
+  margin: 0px 18.32% 0px 49.85%;
+}
+.group_layout1 {
+  position: absolute;
+  top: -36px;
+  height: 53px;
+  width: 424px;
+  right: 0px;
+}
+.group_layout {
+  position: absolute;
+  height: 53px;
+  bottom: -36px;
+  left: -421px;
+  width: 424px;
+}
+.image1 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image1_layout {
+  position: absolute;
+  top: -36px;
+  height: 53px;
+  width: 424px;
+  right: 0px;
+}
+.image1_layout1 {
+  position: relative;
+  height: 53px;
+  width: 424px;
+  min-width: 424px;
+}
+.image1_layout2 {
+  position: relative;
+  height: 53px;
+  width: 424px;
+  min-width: 424px;
+}
+.image1_layout3 {
+  position: relative;
+  height: 53px;
+}
+.flex8 {
+  display: flex;
+  @include xl {
+    flex-wrap: wrap;
+    row-gap: 16px;
+  }
+}
+.flex8_layout {
+  position: relative;
+  height: min-content;
+  width: 90.69%;
+  margin: 147px 0% 160px 9.31%;
+  @include lg {
+    margin: 118px 0% 128px 9.31%;
+  }
+  @include md {
+    margin: 87px 0% 93px 9.31%;
+  }
+  @include sm {
+    margin: 60px 0% 64px 9.31%;
+  }
+  @include xs {
+    margin: 47px 0% 49px 9.31%;
+  }
+  @include xxs {
+    margin: 33px 0% 34px 9.31%;
+  }
+  @include tn {
+    margin: 24px 0% 24px 9.31%;
+  }
+}
+.flex8_item {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 696px;
+  @include xl {
+    flex: 0 0 50%;
+  }
+}
+.flex9 {
+  @include flex-column;
+}
+.flex9_layout {
+  position: relative;
+  height: min-content;
+  margin: 4px 0px 101px;
+  @include lg {
+    margin: 5px 0px 84px;
+  }
+  @include md {
+    margin: 5px 0px 65px;
+  }
+  @include sm {
+    margin: 5px 0px 48px;
+  }
+  @include xs {
+    margin: 5px 0px 40px;
+  }
+  @include xxs {
+    margin: 5px 0px 32px;
+  }
+  @include tn {
+    margin: 5px 0px 27px;
+  }
+}
+.hero_title4 {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type0;
+  color: rgb(0, 0, 0);
+  text-align: right;
+  letter-spacing: 0px;
+  @include lg {
+    font-size: 36px;
+    text-align: right;
+  }
+  @include md {
+    font-size: 32px;
+  }
+  @include sm {
+    font-size: 28px;
+  }
+  @include xs {
+    font-size: 26px;
+  }
+  @include xxs {
+    font-size: 24px;
+  }
+  @include tn {
+    font-size: 23px;
+  }
+}
+.hero_title4_layout {
+  position: relative;
+  height: min-content;
+  width: 41.09%;
+  margin: 0px auto;
+  @include tn {
+    width: 48.17%;
+  }
+}
+.big_title {
+  display: flex;
+  justify-content: flex-end;
+  font: $font_type1;
+  color: rgb(63, 63, 63);
+  text-align: right;
+  letter-spacing: 0px;
+  @include lg {
+    font-size: 27px;
+    text-align: right;
+  }
+  @include md {
+    font-size: 24px;
+  }
+  @include sm {
+    font-size: 21px;
+  }
+  @include xs {
+    font-size: 20px;
+  }
+  @include xxs {
+    font-size: 18px;
+  }
+  @include tn {
+    font-size: 17px;
+  }
+}
+.big_title_layout {
+  position: relative;
+  height: min-content;
+  margin: 107px 0px 0px;
+  @include lg {
+    margin: 88px 0px 0px;
+  }
+  @include md {
+    margin: 67px 0px 0px;
+  }
+  @include sm {
+    margin: 50px 0px 0px;
+  }
+  @include xs {
+    margin: 41px 0px 0px;
+  }
+  @include xxs {
+    margin: 32px 0px 0px;
+  }
+  @include tn {
+    margin: 26px 0px 0px;
+  }
+}
+.flex8_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 512px;
+  @include xl {
+    flex: 0 0 50%;
+  }
+}
+.image2 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image2_layout {
+  position: relative;
+  height: 512px;
+}

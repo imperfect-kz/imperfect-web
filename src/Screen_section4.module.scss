@@ -1,0 +1,598 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+@import "utils";
+
+$font_type0: 500 60px/1.2 "Ubuntu", Helvetica, Arial, serif;
+$font_type1: 500 50px/1.2 "Ubuntu", Helvetica, Arial, serif;
+$font_type2: 40px/1.2 "Ubuntu", Helvetica, Arial, serif;
+$font_type3: 60px/1.2 "Ubuntu", Helvetica, Arial, serif;
+
+.section4_layout {
+  position: relative;
+  height: min-content;
+}
+.section4 {
+  @include flex-column;
+}
+.block1 {
+  @include flex-column;
+}
+.block1_layout {
+  position: relative;
+  overflow: hidden;
+  height: min-content;
+}
+.decorator1 {
+  background: var(--src) center center / contain no-repeat;
+}
+.decorator1_layout {
+  position: absolute;
+  height: 543px;
+  bottom: -255px;
+  width: 529px;
+  right: 225px;
+}
+.decorator {
+  background: var(--src) center center / contain no-repeat;
+}
+.decorator_layout {
+  position: absolute;
+  top: 45px;
+  height: 1332px;
+  width: 992px;
+  right: -433px;
+}
+.flex10 {
+  @include flex-column;
+}
+.flex10_layout {
+  position: relative;
+  height: min-content;
+  width: 80.69%;
+  margin: 76px auto;
+  @include xl {
+    width: 84.78%;
+  }
+  @include lg {
+    width: 88.13%;
+    margin: 65px auto;
+  }
+  @include md {
+    width: 90.83%;
+    margin: 52px auto;
+  }
+  @include sm {
+    width: 92.96%;
+    margin: 42px auto;
+  }
+  @include xs {
+    width: 94.63%;
+    margin: 37px auto;
+  }
+  @include xxs {
+    width: 95.91%;
+    margin: 31px auto;
+  }
+  @include tn {
+    width: 96.9%;
+    margin: 28px auto;
+  }
+}
+.group {
+  @include flex-column;
+}
+.group_layout1 {
+  position: relative;
+  height: min-content;
+  width: 36.49%;
+  margin: 0px 13.68% 0px 49.83%;
+}
+.image1 {
+  background: var(--src) center center / contain no-repeat;
+}
+.image1_layout {
+  position: absolute;
+  top: 0px;
+  height: 53px;
+  left: -421px;
+  width: 424px;
+}
+.image1_layout1 {
+  position: relative;
+  height: 53px;
+}
+.group_layout {
+  position: absolute;
+  top: -36px;
+  height: 53px;
+  width: 424px;
+  right: 0px;
+}
+.image1_layout2 {
+  position: relative;
+  height: 53px;
+  width: 424px;
+  min-width: 424px;
+}
+.flex11 {
+  display: flex;
+  @include lg {
+    flex-wrap: wrap;
+    row-gap: 16px;
+  }
+}
+.flex11_layout {
+  position: relative;
+  height: min-content;
+  width: 82.62%;
+  margin: 109px auto 0px;
+  @include lg {
+    width: 86.37%;
+    margin: 90px auto 0px;
+  }
+  @include md {
+    width: 89.42%;
+    margin: 68px auto 0px;
+  }
+  @include sm {
+    width: 91.85%;
+    margin: 50px auto 0px;
+  }
+  @include xs {
+    width: 93.76%;
+    margin: 41px auto 0px;
+  }
+  @include xxs {
+    width: 95.25%;
+    margin: 32px auto 0px;
+  }
+  @include tn {
+    width: 96.39%;
+    margin: 26px auto 0px;
+  }
+}
+.flex11_item {
+  @include flex-column;
+  position: relative;
+  flex: 1 0 auto;
+  @include lg {
+    flex: 0 0 100%;
+  }
+}
+.hero_title {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  @include font-face($font_type0, rgb(231, 189, 222), 0px);
+  white-space: pre-wrap;
+  @include lg {
+    font-size: 53px;
+    text-align: left;
+  }
+  @include md {
+    font-size: 46px;
+  }
+  @include sm {
+    font-size: 39px;
+  }
+  @include xs {
+    font-size: 36px;
+  }
+  @include xxs {
+    font-size: 33px;
+  }
+  @include tn {
+    font-size: 31px;
+  }
+}
+.hero_title_box {
+  @include lg {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  @include md {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  @include sm {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  @include xs {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  @include xxs {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  @include tn {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+}
+.hero_title_box_layout {
+  position: relative;
+  height: min-content;
+  margin: 24px 0px;
+  @include lg {
+    margin: 21px 0px;
+  }
+  @include md {
+    margin: 18px 0px;
+  }
+  @include sm {
+    margin: 15px 0px;
+  }
+  @include xs {
+    margin: 14px 0px;
+  }
+  @include xxs {
+    margin: 12px 0px;
+  }
+  @include tn {
+    margin: 11px 0px;
+  }
+}
+.flex11_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 66px;
+  @include lg {
+    display: none;
+  }
+}
+.flex11_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 548px;
+  @include lg {
+    flex: 0 0 100%;
+  }
+}
+.hero_title1 {
+  overflow: visible;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin: 0px;
+  font: $font_type1;
+  color: rgb(231, 189, 222);
+  text-align: center;
+  letter-spacing: 0px;
+  white-space: pre-wrap;
+  @include lg {
+    font-size: 44px;
+    text-align: center;
+  }
+  @include md {
+    font-size: 38px;
+  }
+  @include sm {
+    font-size: 33px;
+  }
+  @include xs {
+    font-size: 30px;
+  }
+  @include xxs {
+    font-size: 28px;
+  }
+  @include tn {
+    font-size: 26px;
+  }
+}
+.hero_title1_box {
+  @include h-center-content;
+  @include lg {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  @include md {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  @include sm {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  @include xs {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  @include xxs {
+    align-items: flex-start;
+    justify-content: center;
+  }
+  @include tn {
+    align-items: flex-start;
+    justify-content: center;
+  }
+}
+.hero_title1_box_layout {
+  position: relative;
+  height: min-content;
+}
+.flex12 {
+  display: flex;
+  @include md {
+    flex-wrap: wrap;
+    row-gap: 16px;
+  }
+}
+.flex12_layout {
+  position: relative;
+  height: min-content;
+  margin: 37px 0px 253px;
+  @include lg {
+    margin: 32px 0px 198px;
+  }
+  @include md {
+    margin: 27px 0px 139px;
+  }
+  @include sm {
+    margin: 22px 0px 88px;
+  }
+  @include xs {
+    margin: 20px 0px 62px;
+  }
+  @include xxs {
+    margin: 18px 0px 37px;
+  }
+  @include tn {
+    margin: 16px 0px 19px;
+  }
+}
+.flex12_item {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 102px;
+  @include md {
+    flex: 0 0 100%;
+  }
+}
+.flex13 {
+  @include flex-column;
+}
+.flex13_layout {
+  position: relative;
+  height: min-content;
+  margin: 46px 0px 0px;
+  @include lg {
+    margin: 39px 0px 0px;
+  }
+  @include md {
+    margin: 32px 0px 0px;
+  }
+  @include sm {
+    margin: 26px 0px 0px;
+  }
+  @include xs {
+    margin: 23px 0px 0px;
+  }
+  @include xxs {
+    margin: 20px 0px 0px;
+  }
+  @include tn {
+    margin: 18px 0px 0px;
+  }
+}
+.icon {
+  background: var(--src) center center / contain no-repeat;
+  filter: drop-shadow(
+    0px 5.6526947021484375px 5.6526947021484375px
+      rgba(0, 0, 0, 0.24705882352941178)
+  );
+}
+.icon_layout {
+  position: relative;
+  height: 102px;
+  width: 102px;
+  min-width: 102px;
+}
+.icon1 {
+  background: var(--src) center center / contain no-repeat;
+  filter: drop-shadow(
+    0px 4.642402648925781px 4.642402648925781px
+      rgba(0, 0, 0, 0.24705882352941178)
+  );
+}
+.icon1_layout {
+  position: relative;
+  height: 97px;
+  width: 97px;
+  min-width: 97px;
+  margin: 55px 0px 0px 5px;
+  @include lg {
+    margin: 47px 0px 0px 5px;
+  }
+  @include md {
+    margin: 38px 0px 0px 5px;
+  }
+  @include sm {
+    margin: 31px 0px 0px 5px;
+  }
+  @include xs {
+    margin: 27px 0px 0px 5px;
+  }
+  @include xxs {
+    margin: 23px 0px 0px 5px;
+  }
+  @include tn {
+    margin: 21px 0px 0px 5px;
+  }
+}
+.flex12_spacer {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 56px;
+  @include md {
+    display: none;
+  }
+}
+.flex12_item1 {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 385px;
+  @include md {
+    flex: 0 0 100%;
+  }
+}
+.flex14 {
+  @include flex-column;
+}
+.flex14_layout {
+  position: relative;
+  height: min-content;
+  margin: 56px 0px 36px;
+  @include lg {
+    margin: 48px 0px 31px;
+  }
+  @include md {
+    margin: 39px 0px 26px;
+  }
+  @include sm {
+    margin: 32px 0px 22px;
+  }
+  @include xs {
+    margin: 28px 0px 20px;
+  }
+  @include xxs {
+    margin: 24px 0px 17px;
+  }
+  @include tn {
+    margin: 21px 0px 16px;
+  }
+}
+.hero_title2 {
+  font: $font_type2;
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+  letter-spacing: 0px;
+  @include lg {
+    font-size: 36px;
+    text-align: left;
+  }
+  @include md {
+    font-size: 32px;
+  }
+  @include sm {
+    font-size: 28px;
+  }
+  @include xs {
+    font-size: 26px;
+  }
+  @include xxs {
+    font-size: 24px;
+  }
+  @include tn {
+    font-size: 23px;
+  }
+}
+.hero_title2_layout {
+  position: relative;
+  height: min-content;
+}
+.hero_title2_layout1 {
+  position: relative;
+  height: min-content;
+  margin: 112px 0px 0px;
+  @include lg {
+    margin: 92px 0px 0px;
+  }
+  @include md {
+    margin: 70px 0px 0px;
+  }
+  @include sm {
+    margin: 51px 0px 0px;
+  }
+  @include xs {
+    margin: 42px 0px 0px;
+  }
+  @include xxs {
+    margin: 32px 0px 0px;
+  }
+  @include tn {
+    margin: 26px 0px 0px;
+  }
+}
+.flex12_spacer1 {
+  @include flex-column;
+  position: relative;
+  flex: 0 1 154px;
+  @include md {
+    display: none;
+  }
+}
+.flex12_item2 {
+  @include flex-column;
+  position: relative;
+  flex: 1 1 228px;
+  @include md {
+    flex: 0 0 100%;
+  }
+}
+.group1 {
+  @include flex-column;
+  background: var(--src) center center / contain no-repeat;
+}
+.group1_layout {
+  position: relative;
+  flex-grow: 1;
+  min-height: 228px;
+  flex-shrink: 0;
+  margin: 0px 0px 72px;
+  @include lg {
+    margin: 0px 0px 62px;
+  }
+  @include md {
+    margin: 0px 0px 50px;
+  }
+  @include sm {
+    margin: 0px 0px 41px;
+  }
+  @include xs {
+    margin: 0px 0px 36px;
+  }
+  @include xxs {
+    margin: 0px 0px 31px;
+  }
+  @include tn {
+    margin: 0px 0px 28px;
+  }
+}
+.hero_title3 {
+  font: $font_type3;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  letter-spacing: 0px;
+  @include lg {
+    font-size: 53px;
+    text-align: left;
+  }
+  @include md {
+    font-size: 46px;
+  }
+  @include sm {
+    font-size: 39px;
+  }
+  @include xs {
+    font-size: 36px;
+  }
+  @include xxs {
+    font-size: 33px;
+  }
+  @include tn {
+    font-size: 31px;
+  }
+  padding-left: 35px;
+  padding-top: 0px;
+  margin-bottom: -100px;
+}
+.hero_title3_layout {
+  position: absolute;
+  height: min-content;
+  bottom: -70px;
+  width: 339px;
+  left: -100vw;
+  right: -100vw;
+  margin: 0px auto;
+}
