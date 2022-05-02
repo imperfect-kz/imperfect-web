@@ -486,19 +486,22 @@ function renderSection4(props) {
                     require('assets/a9c7f93782e9c094e28e1258235801b1.png')
                       .default
                   })`,
-                  'right':'-100px'
+                  'right':'-50px',
+                  'top':'50px'
                 }}
                 className={cn(
                   section4Styles.group1,
                   section4Styles.group1_layout
                 )}>
-                <a href='https://t.me/botfather' style={{"text-decoration":"none"}}>
+                <a href='http://t.me/imperfectinfobot' style={{"text-decoration":"none"}}>
                   <h1
                     className={cn(
                       section4Styles.hero_title3,
                       section4Styles.hero_title3_layout
-                    )}>
-                    {'@PerfectBot'}
+                    )}
+                    style={{'fontSize':'45px'}}
+                    >
+                    {'@imperfectinfobot'}
                   </h1>
                 </a>
               </div>
