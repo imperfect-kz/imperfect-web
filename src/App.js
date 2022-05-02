@@ -7,6 +7,7 @@ import section2Styles from './Screen_section2.module.scss';
 import section3Styles from './Screen_section3.module.scss';
 import section4Styles from './Screen_section4.module.scss';
 import styles from './Screen.module.scss';
+import video from './assets/intro.mp4';
 
 function renderSection1(props) {
   return (
@@ -45,7 +46,7 @@ function renderSection1(props) {
             <div
               className={cn(section1Styles.flex1, section1Styles.flex1_layout)}>
               <div className={cn(section1Styles.flex1_item)} id='title'>
-                <a href='#' style={{"text-decoration": "none"}}>
+                <a href='#' style={{"textDecoration": "none"}}>
                   <h1
                     className={cn(
                       section1Styles.big_title1,
@@ -152,16 +153,14 @@ function renderSection1(props) {
               <div className={cn(section1Styles.flex2_spacer)} />
               <div className={cn(section1Styles.flex2_item1)}>
                 <div
-                  style={{
-                    '--src': `url(${
-                      require('assets/f561bf3dc9e75426629d79fc97de60d3.png')
-                        .default
-                    })`
-                  }}
+                ///video
                   className={cn(
                     section1Styles.group1,
                     section1Styles.group1_layout
                   )}>
+                    <video width="850px" height='100%' controls>
+                      <source src={video} type="video/mp4" />
+                    </video>
                   <div
                     className={cn(
                       section1Styles.block3,
@@ -212,6 +211,23 @@ function renderSection2(props) {
   return (
     <section
       className={cn(section2Styles.section2, section2Styles.section2_layout)}>
+         <div
+              style={{
+                '--src': `url(${
+                  require('assets/Group 1.png').default
+                })`,
+                'width':'100%',
+                'height':'70px',
+                'right':'0px',
+                'left':'0px',
+                'margin':'auto',
+                'padding':'auto'
+              }}
+              className={cn(
+                section2Styles.image1,
+                section2Styles.image1_layout
+              )}
+            />
       <div className={cn(section2Styles.flex4, section2Styles.flex4_layout)}>
         <div className={cn(section2Styles.flex5, section2Styles.flex5_layout)}>
   
@@ -229,25 +245,9 @@ function renderSection2(props) {
             />
           </div>
           <div className={cn(section2Styles.flex5_spacer)} />
-          <div className={cn(section2Styles.flex5_item1)}>
+          <div className={cn(section2Styles.flex5_item1)} id="about-us">
             <div
-              className={cn(section2Styles.flex6, section2Styles.flex6_layout)} id='about-us'>
-                 <div>
-            <div
-              style={{
-                '--src': `url(${
-                  require('assets/Group 1.png').default
-                })`,
-                'width':'100%',
-                'height':'70px',
-              }}
-              className={cn(
-                section2Styles.image1,
-                section2Styles.image1_layout
-              )}
-            />
-            
-          </div>
+              className={cn(section2Styles.flex6, section2Styles.flex6_layout)} >
               <h1
                 className={cn(
                   section2Styles.hero_title4,
@@ -276,9 +276,6 @@ function renderSection3(props) {
   return (
     <section
       className={cn(section3Styles.section3, section3Styles.section3_layout)}>
-      <div className={cn(section3Styles.flex7, section3Styles.flex7_layout)}>
-      <div className={cn(section2Styles.group, section2Styles.group_layout1)}>
-          <div>
             <div
               style={{
                 '--src': `url(${
@@ -286,7 +283,10 @@ function renderSection3(props) {
                 })`,
                 'width':'1440px',
                 'height':'70px',
-                'paddingBottom':'50px'
+                'right':'0px',
+                'left':'0px',
+                'margin':'auto',
+                'padding':'auto'
               }}
               className={cn(
                 section2Styles.image1,
@@ -294,7 +294,9 @@ function renderSection3(props) {
               )}
             />
             
-          </div>
+      <div className={cn(section3Styles.flex7, section3Styles.flex7_layout)}>
+      <div className={cn(section2Styles.group, section2Styles.group_layout1)}>
+          
         </div>
 
         <div className={cn(section3Styles.flex8, section3Styles.flex8_layout)} id='our-goal'>
@@ -390,13 +392,13 @@ function renderSection4(props) {
 
           <div
             className={cn(section4Styles.flex11, section4Styles.flex11_layout)}>
-            <div className={cn(section4Styles.flex11_item)} id='contacts'>
+            <div className={cn(section4Styles.flex11_item)}>
               <h1
                 className={cn(
                   section4Styles.hero_title_box,
                   section4Styles.hero_title_box_layout
                 )}>
-                <pre className={cn(section4Styles.hero_title1)} style={{ 'text-shadow': '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'}}>
+                <pre className={cn(section4Styles.hero_title1)} style={{ 'textShadow': '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'}}>
                   {'Свяжитесь с нами: '}
                 </pre>
               </h1>
@@ -408,7 +410,7 @@ function renderSection4(props) {
                   section4Styles.hero_title1_box,
                   section4Styles.hero_title1_box_layout
                 )}>
-                <pre className={cn(section4Styles.hero_title1)} style={{ 'text-shadow': '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'}}>
+                <pre className={cn(section4Styles.hero_title1)} style={{ 'textShadow': '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000'}}>
                   {'Нужна помощь?\nИспользуйте наш телеграм-бот: '}
                 </pre>
               </h1>
@@ -416,7 +418,7 @@ function renderSection4(props) {
           </div>
 
           <div
-            className={cn(section4Styles.flex12, section4Styles.flex12_layout)}>
+            className={cn(section4Styles.flex12, section4Styles.flex12_layout)} id='contacts'>
             <div className={cn(section4Styles.flex12_item)}>
               <div
                 className={cn(
@@ -456,7 +458,7 @@ function renderSection4(props) {
                   section4Styles.flex14,
                   section4Styles.flex14_layout
                 )}>
-                <a href='https://www.instagram.com/imperfect_kz/' style={{"text-decoration":"none"}}>
+                <a href='https://www.instagram.com/imperfect_kz/' style={{"textDecoration":"none"}}>
                   <h1
                     className={cn(
                       section4Styles.hero_title2,
@@ -465,13 +467,13 @@ function renderSection4(props) {
                     {'@imperfect_kz'}
                   </h1>
                 </a>
-                <a href='https://www.google.com/intl/ru/gmail/about/policy/' style={{"text-decoration":"none"}}>
+                <a href='mailto:imperfect.kz@gmail.com' style={{"textDecoration":"none"}}>
                   <h1
                     className={cn(
                       section4Styles.hero_title2,
                       section4Styles.hero_title2_layout1
                     )}>
-                    {'example@gmail.com'}
+                    {'imperfect.kz@gmail.com'}
                   </h1>
                 </a>
               </div>
