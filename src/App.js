@@ -493,7 +493,7 @@ function renderSection4(props) {
                   section4Styles.group1,
                   section4Styles.group1_layout
                 )}>
-                <a href='http://t.me/imperfectinfobot' style={{"text-decoration":"none"}}>
+                <a href='http://t.me/imperfectkzinfobot' style={{"text-decoration":"none"}}>
                   <h1
                     className={cn(
                       section4Styles.hero_title3,
